@@ -253,7 +253,7 @@ if [ $release == "ubuntu" ] || [ $release == "debian" ] || [ $release == "deepin
     if ! version_ge "$(dpkg --list | grep '^[ '$'\t]*ii[ '$'\t][ '$'\t]*linux-base[ '$'\t]' | awk '{print $3}')" "4.5ubuntu1~16.04.1"; then
         red    "系统版本太低！"
         yellow "请更换新系统或使用xanmod内核"
-        tyblue "xanmod内核安装脚本：https://github.com/kirin10000/xanmod-install"
+        tyblue "xanmod内核安装脚本：https://github.com/Kam323/xanmod-install"
         exit 1
     fi
 fi
