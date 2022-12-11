@@ -653,7 +653,7 @@ echo " Kernel  : $(uname -r)"
 echo "----------------------------------------"
 echo " Auto install latest kernel"
 echo
-echo " URL: https://github.com/kirin10000/update-kernel"
+echo " URL: https://github.com/Kam323/update-kernel"
 echo "----------------------------------------"
 echo "Press any key to start...or Press Ctrl+C to cancel"
 get_char
